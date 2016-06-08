@@ -1,0 +1,32 @@
+function search() {
+    var x1=document.createElement("NAV");
+    var att1=document.setAttribute("class");
+    att1.value("navbar-fixed-top");
+    var att2=document.setAttribute("role");
+    att2.value="navigation";
+    x1.setAttribute(att1);
+    x1.setAttribute(att2);
+    var x2=document.createElement("FORM");
+    var att3=document.setAttribute("role");
+    att3.value="search";
+    x2.setAttribute(att3);
+    var x3=document.createElement("DIV");
+    var att4=document.setAttribute("class");
+    att4.value="form-group";
+    x3.setAttribute(att4);
+    var x4=document.createElement("INPUT");
+    var att5=document.setAttribute("type");
+    att5.value="text";
+    var att6=document.setAttribute("class");
+    att6.value="form-control";
+    var att7=document.setAttribute("placeholder");
+    att6.value="Search";
+    x4.setAttribute(att5);
+    x4.setAttribute(att6);
+    x4.setAttribute(att7);
+    var x5=document.getElementById("appid").appendChild(x4);
+    var x6=document.getElementById("appform").appendChild(x5);
+    var x7=document.getElementById("appnav").appendChild(x6);
+    var x8=document.getElementById("rep");
+    x8.replaceChild(x7,x8.childNodes[0]);
+}

@@ -1,0 +1,58 @@
+#s1{
+    background-color: transparent !important;
+    border-style: solid !important;
+    border-width: 0px 1px 1px 0px !important;
+    border-color: #ffffff;
+    height: 100px;
+  
+}
+    
+#s2{
+    background-color: transparent !important;
+    border-style: solid !important;
+    border-width: 0px 0px 1px 0px !important;
+    border-color: #ffffff;
+    height: 100px;
+}
+
+body{
+        background: url("../img/hotel.jpg");
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size: 100% auto;
+        background-attachment: fixed !important;
+}
+
+.center-block{
+    text-align: center;
+}
+
+.nv {
+    background-color: orangered;
+    border-color: transparent;
+}
+.oc{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.glyphicon {
+    color: white;
+}
+
+#last{
+     background-color: transparent !important;
+    border-style: solid !important;
+    border-width: 0px 1px 0px 0px !important;
+    border-color: #ffffff;
+    height: 100px;
+}
+
+input{
+background-color: white !important;
+border-style: solid !important;
+border-width: 0px 0px 1px 0px !important;
+border-color: #ffffff!important;
+border-radius: 0px !important;
+font-family: opensans !important;
+}
